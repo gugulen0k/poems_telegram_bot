@@ -1,0 +1,25 @@
+require: rubocop-rake
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+Layout/LineLength:
+  Max: 80
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: start_of_line
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
